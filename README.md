@@ -1,1 +1,1 @@
-# aws-ec2-ror-conf
+# AWS EC2 CONFIGURATION FOR RUBY ON RAILS
