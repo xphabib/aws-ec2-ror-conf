@@ -1,0 +1,7 @@
+git setup
+==========
+apt-get update
+apt-get install git-core
+git --version
+git config --global user.name "xphabib"
+git config --global user.email "xphabib@gmail.com"

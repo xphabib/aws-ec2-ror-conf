@@ -1,0 +1,18 @@
+Gemfile
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano3-puma'
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano-rvm'
+  gem 'capistrano-sidekiq', github: 'seuros/capistrano-sidekiq'
+end
+
+Run the following command to install the gems:
+
+bundle install
+
+Then run the generator to create a basic set of configuration files:
+
+bundle exec cap install

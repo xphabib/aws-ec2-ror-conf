@@ -1,0 +1,38 @@
+New User
+=====================================
+
+sudo adduser deployer
+
+sudo usermod -aG sudo deployer
+
+su deployer
+
+sudo -i
+
+whoami
+
+SSH KEYS AND PUBLIC KEY AUTHENTICATION
+======================================
+
+ssh-keygen
+cd ~/.ssh
+cat id_rsa.pub
+ssh -T git@github.com
+
+authorized keys:
+======================================
+Go to your Local PC Terminal:
+cd ~/.ssh
+cat id_rsa.pub
+copy your ssh key
+
+Go to your server PC Terminal:
+cd ~/.ssh
+sudo vi authorized_keys
+pest your key and save (Simple Vim command ESC -> :wq -> enter)
+
+then connect from you pc using ssh key:
+ssh deployer@your_ip example: ssh deployer@13.125.22.33
+
+
+

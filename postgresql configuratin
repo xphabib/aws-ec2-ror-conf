@@ -1,0 +1,7 @@
+Postgresql conf
+===========================================
+sudo apt-get install postgresql postgresql-contrib libpq-dev
+sudo -u postgres createuser -s username
+sudo -u postgres psql
+postgres=# \password username
+sudo -u postgres createdb -O username db_name
