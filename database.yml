@@ -5,3 +5,5 @@ production:
   pool: 5
   username: sample_postgres
   password: password
+  host: localhost
+  port: 
