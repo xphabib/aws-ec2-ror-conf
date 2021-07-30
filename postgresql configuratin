@@ -7,4 +7,4 @@ postgres=# \password username
 sudo -u postgres createdb -O username db_name
 
 
-sudo service postgresql start
+sudo service postgresql restart
