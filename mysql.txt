@@ -1,0 +1,13 @@
+sudp apt update
+sudo apt install mysql-server
+
+sudo systemctl start mysql.service
+sudo mysql
+
+CREATE USER 'habib'@'localhost' IDENTIFIED BY 'password';
+grant all privileges on *.* to 'habib'@'localhost';
+
+FLUSH PRIVILEGES;
+
+mysql -u root -p
+CREATE DATABASE testDB;

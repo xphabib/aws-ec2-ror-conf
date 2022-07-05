@@ -1,0 +1,5 @@
+Server to local download
+scp username@ip_address:file_production_v1.sql /home/username/Development/db_backup
+
+Local to Server
+scp ./filename.docx username@ip_address:/home/username/your/folder/path
